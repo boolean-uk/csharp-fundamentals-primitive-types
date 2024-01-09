@@ -12,27 +12,27 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 1. Change the value of the member below to be the result of adding numOne and numTwo together
-        public int numOnePlusTwo = numOne+numTwo;
+        public int numOnePlusTwo = numOne + numTwo;
 
 
         // 2. Change the value of the member below to be the result of multiplying numThree by numTwo
-        public int numThreeTimesNumTwo = numThree*numTwo;
+        public int numThreeTimesNumTwo = numThree * numTwo;
 
 
         // 3. Change the value of the member below to be the result of dividing numThree by numOne
-        public int numThreeDividedByNumOne = numThree/numOne;
+        public int numThreeDividedByNumOne = numThree / numOne;
 
 
         // 4. Change the value of the member below to be the result of subtracting numOne from numThree
-        public int numThreeMinusNumOne = numThree-numOne;
+        public int numThreeMinusNumOne = numThree - numOne;
 
 
         // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
-        public int sum = numOne+numTwo+numThree;
+        public int sum = numOne + numTwo + numThree;
 
 
         // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
-        public int numBytes = (numOne+numTwo+numThree)/numOne;
+        public int numBytes = (numOne + numTwo + numThree) / numOne;
 
 
         // 7. Create a public static char member named lastLetter containing the last letter of the English alphabet
@@ -52,7 +52,7 @@ namespace csharp_fundamentals_primitive_types.Main
         public static string lastName = "Smith";
 
         // 10. Create a public static member named fullName that contains the value of firstName and lastName concatenated together with a space in between
-        public string fullName = firstName + " " + lastName;
+        public string fullName = $"{firstName } {lastName}";
 
 
         // 11. Fix the line below so that tenthLetter contains the tenth letter in the alphabet member above.
