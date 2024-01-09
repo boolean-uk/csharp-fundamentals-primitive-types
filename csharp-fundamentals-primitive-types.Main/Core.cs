@@ -85,7 +85,7 @@ namespace csharp_fundamentals_primitive_types.Main
         }
 
 
-        public class car 
+       
     }
 
 }
