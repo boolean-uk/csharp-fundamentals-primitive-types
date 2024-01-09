@@ -121,8 +121,27 @@ namespace csharp_fundamentals_primitive_types.Main
         public string computerCase = "Lian Li PC-011 Dynamic Evo Mid-Tower (Black)";
         public string operativeSystem = "Windows 11 Home";
         public double price = 4599.99d;
+    }
+    
+    public class SocialMediaPost
+    {
+        public string originalPoster = "Sebastian";
+        public string content = "Dette er min første post!";
+        public bool hasImage = false;
+        public bool hasVideo = false;
+        public int comments = 0;
+        public int reposts = 2;
+        public int likes = 13;
+        public int views = 43;
+        public DateTime postDate = new DateTime(2023, 1, 9, 10, 05, 0);
 
     }
 
+    public class Person { 
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public bool HasACat { get; set; }
+
+    }
 
 }
