@@ -32,7 +32,7 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
-        public int numBytes = (numOne + numTwo + numThree) / ;
+        public int numBytes = (numOne + numTwo + numThree) / numOne;
 
 
         // 7. Create a public static char member named lastLetter containing the last letter of the English alphabet
