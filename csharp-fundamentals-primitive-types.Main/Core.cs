@@ -40,11 +40,11 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 8. Create a public static float member named pi that contains the value of pi to two decimal places
-        public float pi = 3.14f; 
+        public float pi = MathF.Round(MathF.PI, 2);
 
 
         // 9. Create a public static double member named piD that contains the value of pi to 5 decimal places
-        public double piD = 3.14159;
+        public double piD = Math.Round(Math.PI, 5);
 
 
         public static string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
