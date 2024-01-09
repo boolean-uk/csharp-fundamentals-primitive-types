@@ -7,6 +7,7 @@ namespace csharp_fundamentals_primitive_types.Test
     {
         Core coreExercise = new Core();
 
+
         [Test]
         public void oneShouldBe24() {
             Assert.AreEqual(24, coreExercise.numOnePlusTwo);
