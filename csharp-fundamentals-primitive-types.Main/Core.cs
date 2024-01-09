@@ -36,7 +36,7 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 7. Create a public static char member named lastLetter containing the last letter of the English alphabet
-        public char lastLetter = 'z';
+        public char lastLetter = 'Z';
 
 
         // 8. Create a public static float member named pi that contains the value of pi to two decimal places
