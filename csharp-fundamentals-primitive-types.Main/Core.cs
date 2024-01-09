@@ -10,11 +10,6 @@ namespace csharp_fundamentals_primitive_types.Main
         public static int numTwo = 16;
         public static int numThree = 32;
 
-        public static enum = {
-            "Manual",
-            "Automatic"
-        };
-
 
         // 1. Change the value of the member below to be the result of adding numOne and numTwo together
         public int numOnePlusTwo = numOne + numTwo;
