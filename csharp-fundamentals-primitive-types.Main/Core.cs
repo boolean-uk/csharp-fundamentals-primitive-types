@@ -57,7 +57,7 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 11. Fix the line below so that tenthLetter contains the tenth letter in the alphabet member above.
-        public char tenthLetter = alphabet[9];
+        public char tenthLetter = alphabet.ToCharArray().ElementAtOrDefault(9);
 
 
         // 12. Create a public static string member named lowerAlphabet that contains the value of the alphabet member in all lower case characters
