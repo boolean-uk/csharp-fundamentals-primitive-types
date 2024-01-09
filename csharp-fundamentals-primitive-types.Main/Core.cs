@@ -12,7 +12,7 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 1. Change the value of the member below to be the result of adding numOne and numTwo together
-        public int numOnePlusTwo = 0;
+        public int numOnePlusTwo = numOne + numTwo;
 
 
         // 2. Change the value of the member below to be the result of multiplying numThree by numTwo
