@@ -1,5 +1,4 @@
 ﻿using csharp_fundamentals_primitive_types.Extensions;
 
-    Car myCar = new Car();
+Car myCar = new Car();
 
-    Console.WriteLine(myCar.transmissionType);
