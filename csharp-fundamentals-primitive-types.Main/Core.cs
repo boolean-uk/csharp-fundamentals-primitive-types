@@ -24,7 +24,7 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 4. Change the value of the member below to be the result of subtracting numOne from numThree
-        public int numThreeMinusNumOne = numOne - numThree;
+        public int numThreeMinusNumOne = numThree - numOne;
 
 
         // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
@@ -40,11 +40,11 @@ namespace csharp_fundamentals_primitive_types.Main
 
 
         // 8. Create a public static float member named pi that contains the value of pi to two decimal places
-        public float pi = 1.11f;
+        public float pi = 3.14f;
 
 
         // 9. Create a public static double member named piD that contains the value of pi to 5 decimal places
-        public double piD = 1.11111d;
+        public double piD = 3.14159d;
 
 
         public static string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
