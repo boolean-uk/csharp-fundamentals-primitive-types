@@ -61,12 +61,12 @@ namespace csharp_fundamentals_primitive_types.Main
 
         // 12. Create a public static string member named lowerAlphabet that contains the value of the alphabet member in all lower case characters
         // If you need help, look through the available String methods to find a relevant one here: https://www.w3schools.com/cs/cs_strings.php
-        public string lowerAlphabet = "abcdefghijklmnopqrstuvwxyz";
+        public string lowerAlphabet = alphabet.ToLower();
 
 
         // 13. Create a public static integer member named alphabetLength that contains the number of characters that exist in the alphabet member
         // Use the documentation linked above if you need help
-        public int alphabetLength = 26;
+        public int alphabetLength = alphabet.Length;
 
 
         // 14. Create a public static integer member named remainder that contains the remainder of dividing 15 by 8
