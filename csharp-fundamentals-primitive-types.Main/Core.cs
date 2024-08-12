@@ -35,7 +35,7 @@ namespace csharp_fundamentals_primitive_types.Main
         public float pi = 3.14f;
 
         // 9. Create a public double member named piD that contains the value of pi to 5 decimal places
-        public double piD = 3.14159d;
+        public double piD = Math.Round((double) Math.PI, 5);
 
         public static string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         public static string firstName = "Jane";
