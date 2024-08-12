@@ -57,6 +57,6 @@ namespace csharp_fundamentals_primitive_types.Main
         public int alphabetLength = alphabet.Length;
 
         // 14. Create a public integer member named remainder that contains the remainder of dividing 15 by 8
-        public int remainder = 15 % 8;
+        public int remainder = 15 % 8; 
     }
 }
