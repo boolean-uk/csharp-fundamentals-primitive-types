@@ -11,19 +11,19 @@ namespace csharp_fundamentals_primitive_types.Main
         public static int numThree = 32;
 
         // 1. Change the value of the member below to be the result of adding numOne and numTwo together
-        public int numOnePlusTwo = 0;
+        public int numOnePlusTwo = numOne + numOne;
 
         // 2. Change the value of the member below to be the result of multiplying numThree by numTwo
-        public int numThreeTimesNumTwo = 0;
+        public int numThreeTimesNumTwo = numThree * numTwo;
 
         // 3. Change the value of the member below to be the result of dividing numThree by numOne
-        public int numThreeDividedByNumOne = 0;
+        public int numThreeDividedByNumOne = numThree / numOne;
 
         // 4. Change the value of the member below to be the result of subtracting numOne from numThree
-        public int numThreeMinusNumOne = 0;
+        public int numThreeMinusNumOne = numThree - numOne;
 
         // 5. Change the value of the member below to be the sum of numOne, numTwo and numThree
-        public int sum = 0;
+        public int sum = numOne + numTwo + numThree;
 
         // 6. Change the value of the member below to be the sum of numOne, numTwo and numThree divided by numOne
         public int numBytes = 0;
