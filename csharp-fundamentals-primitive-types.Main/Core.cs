@@ -58,4 +58,36 @@ namespace csharp_fundamentals_primitive_types.Main
         // 14. Create a public integer member named remainder that contains the remainder of dividing 15 by 8
         public int remainder = 15%8;
     }
+
+
+    public class Book
+    {
+        public string title = "game of thrones";
+        public int publishYear = 1996;
+        public float price = 11.99f;
+        public string isbn = "0-00-224584-1";
+        public string author = "George R. R. Martin";
+
+
+
+    }
+    public class Car
+    {
+        public string make = "volvo";
+        public int numberOfDoors = 4;
+        public string colour = "red";
+        public string regnum = "ab55555";
+
+
+
+    }
+    public class SocialMediaPost
+    {
+        public string plattform = "instagram";
+        public string userName = "honeybobo";
+        public int likes = 134;
+        public int amountOfComments = 15;
+
+
+    }
 }
